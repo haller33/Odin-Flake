@@ -28,7 +28,7 @@ to start using Odin, just do on shell
 
 #+begin_src bash
 
-nix shell github:haller33/Odin-Flake
+nix develop github:haller33/Odin-Flake
 
 #+end_src
 
