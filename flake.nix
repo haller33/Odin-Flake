@@ -27,19 +27,19 @@
   };
   outputs = { self, nixpkgs, flake-utils, }:
     flake-utils.lib.eachDefaultSystem (system:
-      let pkgs = import nixpkgs { inherit system; };
+      let pkgs = import nixpkgs { inherit system; }; # import ./shell.nix { inherit pkgs; }; # import nixpkgs { inherit system; };
       in with pkgs; {
         devShells.default = mkShell {
           LD_LIBRARY_PATH = "$LD_LIBRARY_PATH:${
               with pkgs;
               pkgs.lib.makeLibraryPath [
-                libGL
-                xorg.libX11
-                xorg.libXi
-                SDL2
-                SDL
-                vulkan-loader
-                glfw
+                pkgs.libGL
+                pkgs.xorg.libX11
+                pkgs.xorg.libXi
+                pkgs.SDL2
+                pkgs.SDL
+                pkgs.vulkan-loader
+                pkgs.glfw
               ]
             }";
 
@@ -49,7 +49,7 @@
               src = fetchFromGitHub {
                 owner = "odin-lang";
                 repo = "Odin";
-                rev = finalAttrs.version;
+                rev = finalAttr.version;
                 hash = "sha256-nBq/R2BYqSpuo8H0DBE4cgkV5OxyK5zSnhzRTpAp/FQ=";
                 # name = "${finalAttrs.pname}-${finalAttrs.version}"; # not gona work .
               };
@@ -66,39 +66,39 @@
             }))
 
             # SDL
-            SDL2
-            SDL
+            pkgs.SDL2
+            pkgs.SDL
 
             # GLFW
-            glfw
+            pkgs.glfw
 
             # vulkan
-            vulkan-headers
-            vulkan-loader
-            vulkan-tools
+            pkgs.vulkan-headers
+            pkgs.vulkan-loader
+            pkgs.vulkan-tools
 
             # x11 and raylib stuff
-            glxinfo
-            lld
-            gnumake
-            xorg.libX11.dev
-            xorg.libX11
-            xorg.libXft
-            xorg.libXi
-            xorg.libXinerama
-            libGL
+            pkgs.glxinfo
+            pkgs.lld
+            pkgs.gnumake
+            pkgs.xorg.libX11.dev
+            pkgs.xorg.libX11
+            pkgs.xorg.libXft
+            pkgs.xorg.libXi
+            pkgs.xorg.libXinerama
+            pkgs.libGL
 
             ## not need because of vendor
             # stb
             # lua
 
-            valgrind
-            rr
+            pkgs.valgrind
+            pkgs.rr
 
             # needed for raylib
-            xorg.libXcursor
-            xorg.libXrandr
-            xorg.libXinerama
+            pkgs.xorg.libXcursor
+            pkgs.xorg.libXrandr
+            pkgs.xorg.libXinerama
           ];
         };
       });
