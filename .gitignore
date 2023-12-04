@@ -1,0 +1,9 @@
+**/*.log
+
+# emacs shit
+**/*~
+**/#*
+**/*#
+
+flake.lock
+result*
