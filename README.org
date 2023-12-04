@@ -1,7 +1,21 @@
 #+title: Odin Flakes
 
+   A Non-official Flakes for the [[https://github.com/odin-lang/odin][Odin]] Programming Language
 
-   A Flakes for the Odin Programming Language
+   Original language site
+
+   https://odin-lang.org/
+
+** Start Using
+
+to start using Odin, just do on shell
+
+#+begin_src bash
+
+nix shell github:haller33/Odin-Flake
+
+#+end_src
+
 
 ** inicial Shell implementation
 
