@@ -4,8 +4,14 @@
 
 A Flakes for the Odin Programming Language
 
-* Inicial Implementation Fork
+** inicial Shell implementation
 
-Inicial Implementation of [[https://github.com/znaniye][znaniye]] where is down here
+my inicial shell implementation has been
+
+https://gist.github.com/haller33/0d87338cb002bb3215472f0b1496ca01
+
+** Fork Implementation
+
+Inicial Implementation of Flakes has been from [[https://github.com/znaniye][znaniye]] where is down here
 
 https://gist.github.com/znaniye/569901dc0c56a36419c6f08ea0b65585
