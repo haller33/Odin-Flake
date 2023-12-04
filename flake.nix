@@ -51,7 +51,7 @@
                 repo = "Odin";
                 rev = finalAttr.version;
                 hash = "sha256-nBq/R2BYqSpuo8H0DBE4cgkV5OxyK5zSnhzRTpAp/FQ=";
-                # name = "${finalAttrs.pname}-${finalAttrs.version}"; # not gona work .
+                # name = "${finalAttr.pname}-${finalAttr.version}"; # not gona work .
               };
 
               preBuild = ''
