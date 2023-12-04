@@ -1,8 +1,7 @@
-#+title: Readme
+#+title: Odin Flakes
 
-* Odin Flakes
 
-A Flakes for the Odin Programming Language
+   A Flakes for the Odin Programming Language
 
 ** inicial Shell implementation
 
