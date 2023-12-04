@@ -33,11 +33,16 @@
           LD_LIBRARY_PATH = "$LD_LIBRARY_PATH:${
               with pkgs;
               pkgs.lib.makeLibraryPath [
+                # for raylib and openGL
                 pkgs.libGL
                 pkgs.xorg.libX11
                 pkgs.xorg.libXi
+
+                # for SDL and SDL2
                 pkgs.SDL2
                 pkgs.SDL
+
+                # for vulkan and GLFW
                 pkgs.vulkan-loader
                 pkgs.glfw
               ]
@@ -94,8 +99,11 @@
             # stb
             # lua
 
+            # debugging stuff and profile
             pkgs.valgrind
             pkgs.rr
+            pkgs.gdb
+            pkgs.lldb
 
             # needed for raylib
             pkgs.xorg.libXcursor
