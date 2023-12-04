@@ -54,8 +54,8 @@
               src = fetchFromGitHub {
                 owner = "odin-lang";
                 repo = "Odin";
-                rev = "dev-2023-11"; # version of the branch
-                hash = "sha256-5plcr+j9aFSaLfLQXbG4WD1GH6rE7D3uhlUbPaDEYf8=";
+                rev = "dev-2023-10"; # version of the branch
+                hash = "sha256-ZKxTkqPjbr/xw1HJ8jWrN4R1i9tKrZT9AGWFHIhpC1E=";
                 # name = "${finalAttr.pname}-${finalAttr.version}"; # not gona work .
               };
 
