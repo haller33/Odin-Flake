@@ -6,6 +6,10 @@
 
    https://odin-lang.org/
 
+   Github Repo
+
+   https://github.com/odin-lang/odin
+
    Docs
 
    https://odin-lang.org/docs/
@@ -29,7 +33,7 @@ nix shell github:haller33/Odin-Flake
 #+end_src
 
 
-** inicial Shell implementation
+** Inicial Shell.nix implementation
 
 my inicial shell implementation has been
 
