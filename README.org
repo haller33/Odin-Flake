@@ -14,6 +14,10 @@
 
    https://odin-lang.org/docs/overview/
 
+   The language specification also can been follow as a demo file down here
+
+   https://github.com/odin-lang/Odin/blob/master/examples/demo/demo.odin
+
 ** Start Using
 
 to start using Odin, just do on shell
