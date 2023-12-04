@@ -34,6 +34,18 @@ nix develop github:haller33/Odin-Flake
 
 #+end_src
 
+or with the repo cloned
+
+#+begin_src bash
+
+git clone https://github.com/haller33/Odin-Flake
+
+cd Odin-Flake
+
+nix develop
+
+#+end_src
+
 
 ** Inicial Shell.nix implementation
 
