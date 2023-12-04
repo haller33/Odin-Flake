@@ -46,11 +46,13 @@
           buildInputs = [
             (odin.overrideAttrs (finalAttr: prevAttr: {
 
+              version_branch = "dev-2023-11";
+
               src = fetchFromGitHub {
                 owner = "odin-lang";
                 repo = "Odin";
-                rev = finalAttr.version;
-                hash = "sha256-nBq/R2BYqSpuo8H0DBE4cgkV5OxyK5zSnhzRTpAp/FQ=";
+                rev = version_branch;
+                hash = "sha256-5plcr+j9aFSaLfLQXbG4WD1GH6rE7D3uhlUbPaDEYf8=";
                 # name = "${finalAttr.pname}-${finalAttr.version}"; # not gona work .
               };
 
