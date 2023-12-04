@@ -1,0 +1,11 @@
+#+title: Readme
+
+* Odin Flakes
+
+A Flakes for the Odin Programming Language
+
+* Inicial Implementation Fork
+
+Inicial Implementation of [[https://github.com/znaniye][znaniye]] where is down here
+
+https://gist.github.com/znaniye/569901dc0c56a36419c6f08ea0b65585
