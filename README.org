@@ -26,7 +26,7 @@
 
 ** Start Using
 
-to start using Odin, just do on shell
+to start using Odin, just do on shell with
 
 #+begin_src bash
 
@@ -45,6 +45,14 @@ cd Odin-Flake
 nix develop
 
 #+end_src
+
+*** How to have Nix?
+
+Do not have [[https://nixos.org][Nix]] yet ? just go to [[https://nixos.org/download][Download it]], and/or check if your distro have support!
+
+*** Wish any diferent branch then the Flakes Standard ?
+
+Just edit on [[https://github.com/haller33/Odin-Flake/blob/8cacea9a0081cef4eee0318a8972692cdced0607/flake.nix#L57][line to edit branch]] and update the [[https://github.com/haller33/Odin-Flake/blob/8cacea9a0081cef4eee0318a8972692cdced0607/flake.nix#L58][hash]]!
 
 
 ** Inicial Shell.nix implementation
