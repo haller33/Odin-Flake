@@ -102,6 +102,7 @@
             pkgs.rr
             pkgs.gdb
             pkgs.lldb
+            pkgs.gf
 
             # needed for raylib
             pkgs.xorg.libXcursor
