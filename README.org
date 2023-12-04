@@ -35,7 +35,7 @@ nix develop github:haller33/Odin-Flake
 
 ** Inicial Shell.nix implementation
 
-my inicial shell implementation has been
+My inicial shell implementation has been
 
 https://gist.github.com/haller33/0d87338cb002bb3215472f0b1496ca01
 
@@ -44,3 +44,9 @@ https://gist.github.com/haller33/0d87338cb002bb3215472f0b1496ca01
 Inicial Implementation of Flakes has been from [[https://github.com/znaniye][znaniye]] where is down here
 
 https://gist.github.com/znaniye/569901dc0c56a36419c6f08ea0b65585
+
+** Thanks
+
+Special Thanks to [[https://github.com/znaniye]] for helping all along developing this flakes, since I still have little knowledge of that.
+
+Thank You!
