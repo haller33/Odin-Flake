@@ -6,6 +6,14 @@
 
    https://odin-lang.org/
 
+   Docs
+
+   https://odin-lang.org/docs/
+
+   Overview
+
+   https://odin-lang.org/docs/overview/
+
 ** Start Using
 
 to start using Odin, just do on shell
