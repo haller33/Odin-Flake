@@ -104,6 +104,10 @@
             pkgs.lldb
             pkgs.gf
 
+            # Graphics Debugger
+            pkgs.renderdoc
+
+
             # needed for raylib
             pkgs.xorg.libXcursor
             pkgs.xorg.libXrandr
