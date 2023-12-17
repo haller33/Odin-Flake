@@ -40,6 +40,7 @@
 
                 # for SDL and SDL2
                 pkgs.SDL2
+                pkgs.SDL2_mixer
                 pkgs.SDL
 
                 # for vulkan and GLFW
@@ -72,6 +73,7 @@
 
             # SDL
             pkgs.SDL2
+            pkgs.SDL2_mixer
             pkgs.SDL
 
             # GLFW
